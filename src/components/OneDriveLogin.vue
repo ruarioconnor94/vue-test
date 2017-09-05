@@ -1,12 +1,22 @@
 <template>
   <div class="oneDriveLogin">
-    <h1>One Drive Login</h1>
+    <div class="container is-widescreen">
+      <div class="notification">
+          <a class="button" v-on:click="launchModel">Sign in with Microsoft</a>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'oneDriveLogin'
+  name: 'oneDriveLogin',
+  
+  methods: {
+    launchModel: function (){
+      
+    }
+  }
 
 }
 </script>
