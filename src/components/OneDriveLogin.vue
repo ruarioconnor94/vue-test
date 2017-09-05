@@ -1,12 +1,12 @@
 <template>
-  <div class="about">
+  <div class="oneDriveLogin">
     <h1>One Drive Login</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'about'
+  name: 'oneDriveLogin'
 
 }
 </script>

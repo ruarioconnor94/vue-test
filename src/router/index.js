@@ -4,7 +4,7 @@ import Router from 'vue-router'
 
 import Home from '@/components/Home' 
 import Faq from  '@/components/Faq'
-import About from '@/components/About'
+import OneDriveLogin from '@/components/OneDriveLogin'
 import Features from '@/components/Features'
 
 //Use Plugins by Calling the Vue.use() Global Method
@@ -23,9 +23,9 @@ export default new Router({
       component : Faq
     },
     {
-      path: '/about',
-      name: 'About',
-      component: About
+      path: '/oneDriveLogin',
+      name: 'OneDriveLogin',
+      component: OneDriveLogin
     },
     {
       path: '/features',
