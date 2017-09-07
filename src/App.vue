@@ -15,7 +15,6 @@
 
           <router-link to="/" class="nav-item r-item">Home</router-link>
           <router-link to="features" class="nav-item r-item">Features</router-link>
-          <router-link to="oneDriveLogin" class="nav-item r-item">One Drive Login</router-link>
           <router-link to="faq" class="nav-item r-item">FAQ</router-link>
 
           <div class="nav-item">

@@ -1,21 +1,19 @@
 <template>
-  <div class="oneDriveLogin">
-    <div class="container is-widescreen">
-      <div class="notification">
-          <a class="button" v-on:click="launchModel">Sign in with Microsoft</a>
-      </div>
-    </div>
+  <div>
+
+
+<!--    <button id="SignIn" onclick="signIn()">Sign In</button>
+    <h4 id="WelcomeMessage"></h4> -->
   </div>
 </template>
 
 <script>
+import axios from 'axios';
 export default {
   name: 'oneDriveLogin',
-  
+
   methods: {
-    launchModel: function (){
-      
-    }
+  
   }
 
 }

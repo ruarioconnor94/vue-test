@@ -9,7 +9,7 @@
           <div class="is-two-thirds column is paddingless">
             <h2 class="subtitle is-4">{{ subheading }}</h2>
           </div>
-          <a class="button is-large is-primary" id="learn">Learn More</a>
+          <a class="button is-large is-primary" id="learn" v-on:click="launchLogin">Login in With Microsoft</a>
         </div>
       </div>
     </section>
@@ -60,6 +60,7 @@
     </section>
 
   </div>
+
 </template>
 
 <script>
@@ -70,7 +71,13 @@ export default {
       heading: 'Vue.JS',
       subheading: 'Whats your Vue?'
     }
+  },
+  methods: {
+    launchLogin: function(){
+       window.location = 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=50d44fb5-025b-4bf4-9b87-77237bd8ab90&scope=files.readwrite&response_type=code&redirect_uri=http://localhost:8080/oneDriveLogin';
+    }
   }
+  
 
 }
 </script>
