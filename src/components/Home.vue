@@ -74,7 +74,7 @@ export default {
   },
   methods: {
     launchLogin: function(){
-       window.location = 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=50d44fb5-025b-4bf4-9b87-77237bd8ab90&scope=files.readwrite&response_type=code&redirect_uri=http://localhost:8080/oneDriveLogin';
+       window.location = 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=50d44fb5-025b-4bf4-9b87-77237bd8ab90&scope=User.ReadBasic.All&response_type=code&redirect_uri=http://localhost:8080/oneDriveLogin';
     }
   }
   

@@ -35,7 +35,7 @@
       <!-- HEADER NAV BAR -->
 
        <!-- The APP View is Shown Here-->
-    <router-view></router-view>
+    <router-view></rosuter-view>
   
       <!-- Footer -->
     <footer class="footer is-primary">
