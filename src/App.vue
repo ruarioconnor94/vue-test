@@ -35,26 +35,10 @@
       <!-- HEADER NAV BAR -->
 
        <!-- The APP View is Shown Here-->
-    <router-view></rosuter-view>
+    <router-view></router-view>
   
       <!-- Footer -->
-    <footer class="footer is-primary">
-      <div class="container">
-        <div class="columns">
-          <div class="column">
-            <p>Some Text Here</p>
-          </div>
-          <div class="column has-text-right">
-            <a class="icon" href="#">
-              <i class="fa fa-facebook"></i>
-            </a>
-            <a class="icon" href="#">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    
       <!-- Footer -->
   </div>
 </template>
